@@ -80,28 +80,28 @@ const Mycarousel = () => (
     showThumbs={false}
   >
     <Box w="full" h={'100vh'}>
-      <Image src={img1} />
+      <Image src={img1} w={'full'} h={'full'} objectFit={'cover'}  />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingoptions}>
         Watch the Future{' '}
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
-      <Image src={img2} />
+      <Image src={img2} w={'full'} h={'full'} objectFit={'cover'} />
       <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingoptions}>
         Future is Gaming
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
-      <Image src={img3} />
+      <Image src={img3} w={'full'} h={'full'} objectFit={'cover'}  />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingoptions}>
         Gaming on Colsole
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
-      <Image src={img4} />
+      <Image src={img4} w={'full'} h={'full'} objectFit={'cover'}  />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingoptions}>
         Night life is cool
       </Heading>
